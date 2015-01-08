@@ -25,6 +25,15 @@
                                     <rect key="frame" x="16" y="72" width="283" height="80"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u01-OL-wux">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="160" width="195" height="21"/>
+                                </variation>
+                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AlbertEinsteinStamp.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Np5-jD-P5V">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
@@ -65,6 +74,7 @@
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="KlV-h3-zwf"/>
+                                <exclude reference="u01-OL-wux"/>
                                 <exclude reference="Np5-jD-P5V"/>
                                 <exclude reference="aIk-yk-ZcQ"/>
                                 <exclude reference="WtK-3s-leg"/>
@@ -74,6 +84,7 @@
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="KlV-h3-zwf"/>
+                                <include reference="u01-OL-wux"/>
                                 <include reference="Np5-jD-P5V"/>
                                 <include reference="aIk-yk-ZcQ"/>
                                 <include reference="WtK-3s-leg"/>
@@ -86,6 +97,7 @@
                         <outlet property="enterNameTextField" destination="aIk-yk-ZcQ" id="cfn-TW-Z1P"/>
                         <outlet property="mailButton" destination="Vom-tB-eJY" id="rOY-6d-DpP"/>
                         <outlet property="messageLabel" destination="KlV-h3-zwf" id="9OE-Gf-E5u"/>
+                        <outlet property="nameLabel" destination="u01-OL-wux" id="Loc-HC-rL5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
