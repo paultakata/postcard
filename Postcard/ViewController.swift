@@ -27,6 +27,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func sendMailButtonPressed(sender: UIButton) {
+        // Change some attributes
         messageLabel.text = enterMessageTextField.text
         messageLabel.textColor = UIColor.redColor()
         messageLabel.hidden = false
